@@ -13,6 +13,11 @@
 		C67EE9E81A8BF34600FAC768 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67EE9E71A8BF34600FAC768 /* Images.xcassets */; };
 		C67EE9EB1A8BF34600FAC768 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C67EE9E91A8BF34600FAC768 /* LaunchScreen.xib */; };
 		C67EE9F71A8BF34600FAC768 /* PickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EE9F61A8BF34600FAC768 /* PickersTests.swift */; };
+		C67EEA011A8BF40F00FAC768 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EEA001A8BF40F00FAC768 /* DatePickerViewController.swift */; };
+		C67EEA031A8BF42200FAC768 /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EEA021A8BF42200FAC768 /* SingleComponentPickerViewController.swift */; };
+		C67EEA051A8BF42D00FAC768 /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EEA041A8BF42D00FAC768 /* DoubleComponentPickerViewController.swift */; };
+		C67EEA071A8BF43A00FAC768 /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EEA061A8BF43A00FAC768 /* DependentComponentPickerViewController.swift */; };
+		C67EEA091A8BF44900FAC768 /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67EEA081A8BF44900FAC768 /* CustomPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		C67EE9F01A8BF34600FAC768 /* PickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67EE9F51A8BF34600FAC768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C67EE9F61A8BF34600FAC768 /* PickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersTests.swift; sourceTree = "<group>"; };
+		C67EEA001A8BF40F00FAC768 /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		C67EEA021A8BF42200FAC768 /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		C67EEA041A8BF42D00FAC768 /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		C67EEA061A8BF43A00FAC768 /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		C67EEA081A8BF44900FAC768 /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				C67EE9E01A8BF34600FAC768 /* AppDelegate.swift */,
+				C67EEA081A8BF44900FAC768 /* CustomPickerViewController.swift */,
+				C67EEA001A8BF40F00FAC768 /* DatePickerViewController.swift */,
+				C67EEA061A8BF43A00FAC768 /* DependentComponentPickerViewController.swift */,
+				C67EEA041A8BF42D00FAC768 /* DoubleComponentPickerViewController.swift */,
+				C67EEA021A8BF42200FAC768 /* SingleComponentPickerViewController.swift */,
 				C67EE9E21A8BF34600FAC768 /* ViewController.swift */,
-				C67EE9E41A8BF34600FAC768 /* Main.storyboard */,
 				C67EE9E71A8BF34600FAC768 /* Images.xcassets */,
 				C67EE9E91A8BF34600FAC768 /* LaunchScreen.xib */,
+				C67EE9E41A8BF34600FAC768 /* Main.storyboard */,
 				C67EE9DE1A8BF34600FAC768 /* Supporting Files */,
 			);
 			path = Pickers;
@@ -214,6 +229,11 @@
 			files = (
 				C67EE9E31A8BF34600FAC768 /* ViewController.swift in Sources */,
 				C67EE9E11A8BF34600FAC768 /* AppDelegate.swift in Sources */,
+				C67EEA071A8BF43A00FAC768 /* DependentComponentPickerViewController.swift in Sources */,
+				C67EEA051A8BF42D00FAC768 /* DoubleComponentPickerViewController.swift in Sources */,
+				C67EEA091A8BF44900FAC768 /* CustomPickerViewController.swift in Sources */,
+				C67EEA031A8BF42200FAC768 /* SingleComponentPickerViewController.swift in Sources */,
+				C67EEA011A8BF40F00FAC768 /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
